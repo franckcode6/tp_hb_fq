@@ -38,3 +38,12 @@ body {
   .ml1 .letteroL {
      color : red;
   }
+
+  .test::before{
+    content: "<";
+    color: blue;
+  }
+  .test::after{
+    content: "/>";
+    color: blue;
+  }
